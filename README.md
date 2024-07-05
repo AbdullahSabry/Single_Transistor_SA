@@ -34,7 +34,7 @@ Built with Tkinter, Matplotlib, and Pandas
 ### Demo Highlight
 The included demo showcases sizing the input NMOS pair of a 5T OTA:
 
-* Conditions set: 0.2 < VSB < 0.4 (accounting for body effect)
+* Conditions set: 0.2 < VSB < 0.4 (accounting for body effect), requirements for transistor parameteres (gm, rout)
 * Plot: VGS vs. area, with drain current (id) as the hue variable
 * Goal: Find the point with lowest VGS and area while maintaining reasonable power consumption
 * Dataset: 900,000 operating points
